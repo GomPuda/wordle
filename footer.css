@@ -1,0 +1,50 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  border-top: 2px solid gainsboro;
+  padding-top: 10px;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.keyboard-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  width: 60px;
+  height: 60px;
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+
+.enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  width: 90px;
+  height: 60px;
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+
+.backspace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  width: 90px;
+  height: 60px;
+  background-color: gainsboro;
+  border-radius: 5px;
+}
