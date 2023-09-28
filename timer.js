@@ -1,4 +1,5 @@
 const 시작_시간 = new Date();
+let timer;
 
 function setTime() {
   const 현재_시간 = new Date();
@@ -9,4 +10,10 @@ function setTime() {
   timeH1.innerHTML = `${분.padStart(2, "0")}:${초.padStart(2, "0")}`;
 }
 
-setInterval(setTime, 1000);
+timer = setInterval(setTime, 1000);
+
+const gameover = () => {
+  window.removeEventListener("keydown", handlekeydown);
+  displayGameover();
+  clearInterval(timer);
+};
